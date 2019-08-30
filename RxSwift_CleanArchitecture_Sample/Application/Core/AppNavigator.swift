@@ -10,14 +10,15 @@ import UIKit
 import FlowInject
 
 enum AppRoute: Route {
-  
+//  case allUser
 }
 
 class AppNavigator: Navigator<AppRoute> {
   
   func navigate(to destination: AppRoute) {
     switch destination {
-    
+//    case .allUser:
+      
     }
   }
   
